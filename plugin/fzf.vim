@@ -1,0 +1,1 @@
+nmap ff :FZF<CR>
