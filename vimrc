@@ -21,6 +21,11 @@ imap <F1> <Esc>
 
 set runtimepath+=~/.config/vim,~/.config/vim/after
 
+" set swapfiles and backups location
+set directory^=$HOME/.local/share/vim/swap//
+set backupdir^=$HOME/.local/share/vim/backupdir//
+
+
 call plug#begin('~/.local/share/vim/plugged')
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
